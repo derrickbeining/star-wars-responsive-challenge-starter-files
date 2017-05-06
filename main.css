@@ -1,36 +1,48 @@
 header {
-    background-color: gold;
+    background-color: goldenrod;
+    color: white;
+    margin-bottom: 20px;
     position: relative;
-    top: 0;
+    width: 100%;
 }
 
 html {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.618;
 }
 
-h1 {
+html * {
     font-family: inherit;
-    font-size: 2em;
-}
-
-h2 {
-    font-family: inherit;
-    font-size: 1.5rem;
-}
-
-h3 {
-    font-family: inherit;
-    font-size: 1.0rem;
-    font-weight: 100;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
 }
 
 img {
     width: 100%;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.header-subtitle {
+
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
 .card {
     border: 1px lightgray solid;
 
+}
+
+.text-box {
+    padding: 20px;
 }
